@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/01.Start-Spring-Boot/pom.xml" />
+        <option value="$PROJECT_DIR$/02.Spring-Boot-Config/pom.xml" />
+        <option value="$PROJECT_DIR$/03.Spring-Boot-MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/04.Spring-Boot-JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/05.Spring-Boot-MyBatis-MultiDataSource/pom.xml" />
+        <option value="$PROJECT_DIR$/06.Spring-Boot-JdbcTemplate-MultiDataSource/pom.xml" />
+        <option value="$PROJECT_DIR$/07.Spring-Boot-AOP-Log/pom.xml" />
+        <option value="$PROJECT_DIR$/08.Spring-Boot-Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/09.Spring-Boot-Redis-Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/10.Spring-Boot-Ehcache-Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/11.Spring-Boot-Shiro-Authentication/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

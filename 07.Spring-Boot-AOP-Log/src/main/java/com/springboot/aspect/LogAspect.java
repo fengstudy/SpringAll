@@ -2,6 +2,7 @@ package com.springboot.aspect;
 
 import java.lang.reflect.Method;
 import java.util.Date;
+import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -51,6 +52,8 @@ public class LogAspect {
 		Method method = signature.getMethod();
 		SysLog sysLog = new SysLog();
 		Log logAnnotation = method.getAnnotation(Log.class);
+		//使用uuid 生成id主键
+		//sysLog.setId(Integer.parseInt(UUID.randomUUID().toString()));
 		if (logAnnotation != null) {
 			// 注解上的描述
 			sysLog.setOperation(logAnnotation.value());
